@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic calculator</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section class="top">
+        <span class="basictext">Enter the data for the application</span>
+        <div class="inputdata">
+            <div class="first">
+                input the first no:
+                <input type="number" id="first" name="first">
+            </div>
+            <div class="second">
+                input the second no:
+                <input type="number" id="second" name="secondno">
+            </div>
+        </div>
+        <div class="operation">
+            <button onclick="plus()">+</button>
+            <button onclick="minus()">-</button>
+            <button onclick="multi()">*</button>
+            <button onclick="divide()">/</button>
+        </div>
+        <div class="main">
+            <span>Output <input type="number" id="output" id="output"></span>
+        </div>
+        
+    </section>
+</body>
+
+</html>
